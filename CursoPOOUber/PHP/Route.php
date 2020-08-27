@@ -2,6 +2,6 @@
 
 class Route {
     public $id;
-    public $init;
-    public $end;
+    public $init = array();
+    public $end = array();
 }
