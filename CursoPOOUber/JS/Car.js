@@ -1,6 +1,14 @@
-function Car() {
-    this.id;
-    this.licence;
-    this.driver;
-    this.password;
+class Car {
+    constructor(license, driver) {
+        this.id;
+        this.license = license;
+        this.driver = driver;
+        this.password;
+    }
+
+    printDataCar() {
+        console.log(this.driver);
+        console.log(this.driver.name);
+        console.log(this.driver.document)
+    }
 }
